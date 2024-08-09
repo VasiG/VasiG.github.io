@@ -10,5 +10,18 @@
     "**/*.tsx",
     "**/**/*.ts",
     "**/**/*.tsx"
-  ]
+  ],
+  "exclude": [ "node_modules", "dist" ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node16",
+    "sourceMap": true,
+    "module": "Node16",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true
+  }
 }
