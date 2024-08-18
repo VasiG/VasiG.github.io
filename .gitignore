@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/dailycorgi-app/build/index.html
+/dailycorgi-app/build/favicon.png
+/dailycorgi-app/build/assets/index-CtZOvWcY.css
+/dailycorgi-app/build/assets/index-DVCGHMmH.js

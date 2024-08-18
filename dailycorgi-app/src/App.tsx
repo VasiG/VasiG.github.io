@@ -52,14 +52,20 @@ function App() {
     
 
     return (
-        <div>
+        <div className="top-container">
             <div>
-                <img className="corgiImg" src={photo} alt="A very cute corgi"/>
+                <img className="corgiImg" src={photo}/>
             </div>
-            <div className="top-center">
-                <button className="corgiBtn" onClick={fetchPembroke}>I want a new PEMBROKE WELSH CORGI!!!</button>
-                <button className="corgiBtn" onClick={fetchCardigan}>I want a new CARDIGAN CORGI!!!</button>
-                <button className="corgiBtn" onClick={fetchDog}>Surprise dog</button>
+            <div className="btn-container">
+                <div>
+                    <button className="corgiBtn" onClick={fetchPembroke}>I want a new PEMBROKE WELSH CORGI!!!</button>
+                </div>
+                <div>
+                    <button className="corgiBtn" onClick={fetchCardigan}>I want a new CARDIGAN CORGI!!!</button>
+                </div>
+                <div>
+                    <button className="corgiBtn" onClick={fetchDog}>Surprise dog</button>
+                </div>
             </div>
         </div>
     );

@@ -39,6 +39,6 @@ function App() {
         };
         doFetchDog();
     }
-    return (_jsxs("div", { children: [_jsx("div", { children: _jsx("img", { className: "corgiImg", src: photo, alt: "A very cute corgi" }) }), _jsxs("div", { className: "top-center", children: [_jsx("button", { className: "corgiBtn", onClick: fetchPembroke, children: "I want a new PEMBROKE WELSH CORGI!!!" }), _jsx("button", { className: "corgiBtn", onClick: fetchCardigan, children: "I want a new CARDIGAN CORGI!!!" }), _jsx("button", { className: "corgiBtn", onClick: fetchDog, children: "Surprise dog" })] })] }));
+    return (_jsxs("div", { className: "topDiv", children: [_jsx("div", { children: _jsx("img", { className: "corgiImg", src: photo }) }), _jsxs("div", { className: "btn-container", children: [_jsx("div", { children: _jsx("button", { className: "corgiBtn", onClick: fetchPembroke, children: "I want a new PEMBROKE WELSH CORGI!!!" }) }), _jsx("div", { children: _jsx("button", { className: "corgiBtn", onClick: fetchCardigan, children: "I want a new CARDIGAN CORGI!!!" }) }), _jsx("div", { children: _jsx("button", { className: "corgiBtn", onClick: fetchDog, children: "Surprise dog" }) })] })] }));
 }
 export default App;
